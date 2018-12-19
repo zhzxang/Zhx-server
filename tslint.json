@@ -26,6 +26,7 @@
         "order": "fields-first"
       }
     ],
+    "ordered-imports": false,
     "object-literal-sort-keys": false,
     "max-classes-per-file": [true, 10],
     "variable-name": [true, "allow-leading-underscore"],

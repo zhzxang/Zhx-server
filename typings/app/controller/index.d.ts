@@ -3,13 +3,15 @@
 
 import 'egg';
 import ExportHome from '../../../app/controller/home';
-import ExportUserRegister from '../../../app/controller/user/register';
+import ExportUserRegisterWechat from '../../../app/controller/user/register/wechat';
 
 declare module 'egg' {
   interface IController {
     home: ExportHome;
     user: {
-      register: ExportUserRegister;
+      register: {
+        wechat: ExportUserRegisterWechat;
+      }
     }
   }
 }
